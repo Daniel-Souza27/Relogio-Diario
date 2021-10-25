@@ -14,7 +14,6 @@ function carregar(){
         document.body.style.background = '#D85802'
     } else{
         img.src = 'Images/noite.png' 
-        // document.body.style.background = '#515154'
         document.body.style.background = '#103235'
     }
 
