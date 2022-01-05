@@ -8,7 +8,7 @@ function relogio(){
     var sec = data.getSeconds()
     var hora = hr + ":" + min + ":" + sec
     
-    msg.innerHTML = `<h3> Agora são exatamente ${hora} horas.</h3>`
+    msg.innerHTML = `<h3> Agora são exatamente ${hr} horas.</h3>`
 
     if(hr >= 6 && hr < 12) {
         img.src = 'Images/manha.png'
